@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "watch": true,
+    "outDir": "js",
+    //"outDir": "./js",
+    //"rootDir": "./scripts"
+    "target": "ESNext"
+    //"lib": ["dom", "ES2022"],
+  }
+}

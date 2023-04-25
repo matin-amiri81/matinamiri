@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/test.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <title>Lets Begin</title>
+  </head>
+  <body id="body">
+    <header class="header" draggable="false">|</header>
+    <main class="main">
+      <section class="grid" data-mouse-down-at="0" data-prev-percentage="0">
+        <img
+          class="grid-item"
+          src="img/Landscape-Color.jpg"
+          draggable="false"
+          onclick="moveClick('a0','a1')"
+        />
+        <img
+          class="grid-item"
+          src="img/Landscape-Color.jpg"
+          draggable="false"
+          onclick="moveClick('a0','a2')"
+        />
+        <img
+          class="grid-item"
+          src="img/Landscape-Color.jpg"
+          draggable="false"
+        />
+        <img
+          class="grid-item"
+          src="img/Landscape-Color.jpg"
+          draggable="false"
+        />
+        <img
+          class="grid-item"
+          src="img/Landscape-Color.jpg"
+          draggable="false"
+        />
+        <img
+          class="grid-item"
+          src="img/Landscape-Color.jpg"
+          draggable="false"
+        />
+      </section>
+      <section class="about-container">
+        <div class="about" id="a0">
+          <div class="home-button-divider">
+            <button class="home-button" onclick="moveAbout('body')"></button>
+            <p class="home-p">Home</p>
+          </div>
+        </div>
+        <div class="about" id="a1">
+          <div class="home-button-divider">
+            <button class="home-button" onclick="moveAbout('body')"></button>
+            <p class="home-p">Home</p>
+          </div>
+          <div class="left-text">yabba dabba doo</div>
+          <div class="right-text">blip blop bloop</div>
+        </div>
+        <div class="about" id="a2">
+          <div class="home-button-divider">
+            <button class="home-button" onclick="moveAbout('body')"></button>
+          </div>
+          <div class="left-text">bloop bloop</div>
+          <div class="right-text">blipityy blip</div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="js/first.js"></script>
+</html>
